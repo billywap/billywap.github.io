@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: georgia, Garamond, serif;
+}
+h1, h2 {
+    color: #A4A400;
+    background-color:  #F0F0F0 ;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+}
+
+h2 {
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+a {
+    color:  #A4A400;
+}
+
+#idUserComment p {
+    margin: 10px 40px 10px 40px;
+    background-color: #FFFFA8;
+    font-style: italic;
+}
+
+#idCopyright{
+    text-align: right;
+}
+
+#idCopyright span{
+    display: block;
+}
+
+abbr {
+    text-decoration: underline;
+}
