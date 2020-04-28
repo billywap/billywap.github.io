@@ -29,12 +29,7 @@
          *  @param {a string}
          *  @return a string
          */
-        const reverse = (str) => {
-            let splitString = str.split("");
-            let reverseArray = splitString.reverse();
-            let joinArray = reverseArray.join("");
-            return joinArray;
-        };
+        const reverse = (str) => str.split('').reduce((a, b) => b + a);
         /* 
          *  @param {arr}
          *  @return arr
